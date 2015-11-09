@@ -1,0 +1,8 @@
+Algorithim
+---------------
+The alogritim is very simiar to the value stored in the positive data type. The only difference is the number are receprocated ( 0 is translated to 1 and vice vice versa after the first non zero digit.
+For eg -5 is stored in unsigned character 8 bits as 11111011 and positive 5 is stored as 00000101
+
+If the value of the number to be stored is greater than the number of bits that the value stored is the max value based on the data type ( e.g unassigned character is 65536) minus the actual number. For the negative number the bit values are transposed affter the first non zero digit.
+For e.g -65537 will be stored in a unassigned character as 11111111 and positive 65536 is stored as 00000001
+
