@@ -1,0 +1,9 @@
+Algorithim
+---------------
+The alogritim is to use bits of the data type ( e.g short integer is 16 bits) to store the number.The right most bit is 2^0, the next 2^1, 2^2 and so on ....
+The value of each of this bits is added to retrive the desired number.
+For eg 5 is stored in unsigned character 8 bits as 00000101
+
+If the value of the number to be stored is greater than the number of bits that the value stored is the max value based on the data type ( e.g unassigned character is 65536) minus the actual number.
+For e.g 65537 will be stored in a unassigned character as 00000001
+
