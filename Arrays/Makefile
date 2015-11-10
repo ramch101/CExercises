@@ -1,7 +1,7 @@
-all: arrays
+all: arrays_f
 
 run: all
-	./arrays
+	./arrays_f
 
 clean:
-	rm -f arrays
+	rm -f arrays_f
